@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import LightSwitch from '$lib/components/ui/LightSwitch.svelte';
+</script>
+
+<div class="flex w-2/3 mx-auto justify-between align-bottom">
+	<h1>Pi Day 2023</h1>
+	<LightSwitch />
+</div>
+
+<style></style>
